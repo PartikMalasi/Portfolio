@@ -39,7 +39,7 @@ const Hero = () => {
               repeat={Infinity}
             />
           </p>
-          <p className="mb-6 text-md">
+          <p className="mb-6 text-md sm:text-lg">
             A Pre-Final Student at IIIT Kota pursuing Computer Science and
             Engineering
           </p>
