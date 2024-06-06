@@ -62,7 +62,7 @@ const Hero = () => {
           data-aos-duration="1200"
           src="/Screenshot 2023-11-24 223154.png"
           alt="Your Image"
-          className="rounded-full sm:h-48 sm:w-48 md:h-72 md:w-72 h-96 w-96"
+          className="rounded-full sm:h-96 sm:w-96 md:h-96 md:w-96 h-60 w-60"
         />
       </div>
     </div>
