@@ -23,19 +23,19 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl mb-5 font-bold leading-normal">
             I'm <span className="text-red-500">Partik Malasi</span>
           </h1>
-          <p className="mb-6 text-lg">
+          <p className="mb-6 text-xl sm:text-3xl">
             <TypeAnimation
               sequence={[
-                "I'm a MERN Developer",
+                "I'm a <MERN Developer/>",
                 1000,
-                "I'm a DSA Enthusiast",
+                "I'm a <DSA Enthusiast/>",
                 1000,
-                "I'm a Competitive Programmer",
+                "I'm a <Competitive Programmer/>",
                 1000,
               ]}
               wrapper="span"
               speed={50}
-              style={{ fontSize: "2em", display: "inline-block" }}
+              style={{ display: "inline-block" }}
               repeat={Infinity}
             />
           </p>

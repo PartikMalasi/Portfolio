@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./index.css";
 import Footer from "./sections/Footer";
 import Home from "./sections/Home";
@@ -8,11 +8,22 @@ import Education from "./sections/Education";
 import Contact from "./sections/Contact";
 import Testimonal from "./sections/About";
 import About from "./sections/About";
+import Loader from "./components/Loader";
 function App() {
-  // useEffect(() => {
-  //   document.body.style.overflow = "auto";
-  //   window.scrollTo(0, 0);
-  // });
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate a loading process (e.g., fetching data)
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 3000); // Adjust the duration as needed
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loader />;
+  }
   return (
     <>
       <Home />
@@ -20,7 +31,6 @@ function App() {
       <Skills />
       <Projects />
       <Education />
-
       <Contact />
       <Footer />
     </>

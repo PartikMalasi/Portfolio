@@ -78,9 +78,6 @@ const Contact = () => {
         </h1>
         <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-6xl mx-auto">
           <form
-            data-aos="fade-up" // Apply AOS fade-in animation
-            data-aos-delay="400" // Optional delay
-            data-aos-duration="600"
             onSubmit={handleSubmit}
             className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 md:mr-8 w-2/3 sm:max-w-lg md:w-1/2"
           >
@@ -141,12 +138,7 @@ const Contact = () => {
               </button>
             </div>
           </form>
-          <div
-            data-aos="fade-up" // Apply AOS fade-in animation
-            data-aos-delay="400" // Optional delay
-            data-aos-duration="600"
-            className="md:w-1/2"
-          >
+          <div className="md:w-1/2">
             <Lottie animationData={contact} />
           </div>
         </div>

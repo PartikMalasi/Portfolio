@@ -22,7 +22,7 @@ const Time = () => {
         >
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <img
-              className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 object-contain"
+              className="w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 object-contain"
               src={iiit}
               alt="IIIT Kota"
             />
@@ -39,6 +39,7 @@ const Time = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           contentStyle={{ background: "#31304D", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           className="vertical-timeline-element--work"
           date="2020-2022"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -46,7 +47,7 @@ const Time = () => {
         >
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <img
-              className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 object-contain"
+              className="w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 object-contain"
               src={kv}
               alt="Kendriya Vidyalaya"
             />
@@ -63,6 +64,7 @@ const Time = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           contentStyle={{ background: "#31304D", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           className="vertical-timeline-element--work"
           date="2010 - 2020"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -70,7 +72,7 @@ const Time = () => {
         >
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <img
-              className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 object-contain"
+              className="w-3/4 sm:w-1/2 md:w-1/3 lg:w-1/3 object-contain"
               src={kv}
               alt="Kendriya Vidyalaya"
             />

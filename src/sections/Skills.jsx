@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="flex flex-col items-center justify-center min-h-screen pt-16 overflow-hidden "
+      className="flex flex-col items-center justify-center min-h-screen overflow-hidden "
     >
       <h1 className="p-10 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-purple-500 text-6xl font-bold  text-center">
         Skills
