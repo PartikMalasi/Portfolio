@@ -12,7 +12,7 @@ import MenuItem from "@mui/material/MenuItem";
 
 const pages = [
   { name: "Home", href: "#" },
-  { name: "about", href: "#about" },
+  { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
   { name: "Education", href: "#education" },
