@@ -31,7 +31,7 @@ const project = [
     name: "To Do List",
     img: todo,
     content:
-      "Built a Node.js and Express-based backend with a dynamic, CRUD-functional to-do list interface using EJS and CSS",
+      "Built a Node.js and Express-based backend with a dynamic, CRUD-functional to-do list interface using EJS and CSS.",
     icons: [css, node, express],
     git: "https://github.com/PartikMalasi/To-do-list",
     link: "https://github.com/PartikMalasi/To-do-list",
@@ -40,7 +40,7 @@ const project = [
     name: "Know Your Country",
     img: country,
     content:
-      "Successfully replicated Nike’s frontend design using React JS and tailwind CSS",
+      "Displayed fetched information, such as population, flag, and capital, in a visually appealing and organized manner using REST API.",
     icons: [react, rest, tailwind],
     git: "https://github.com/PartikMalasi/Know-your-country",
     link: "https://know-countries-ok.netlify.app/",
