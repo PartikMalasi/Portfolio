@@ -20,7 +20,7 @@ const Skills = () => {
             <span>Express</span>
             <span>Git</span>
             <span>Mongodb</span>
-            <span>Materail UI</span>
+            <span>Material UI</span>
             <span>Bootstrap</span>
             <span>Node JS</span>
             <span>Python</span>
@@ -35,7 +35,7 @@ const Skills = () => {
             <span>Express</span>
             <span>Git</span>
             <span>Mongodb</span>
-            <span>Materail UI</span>
+            <span>Material UI</span>
             <span>Bootstrap</span>
             <span>Node JS</span>
             <span>Python</span>
@@ -52,7 +52,7 @@ const Skills = () => {
             <span>Express</span>
             <span>Git</span>
             <span>Mongodb</span>
-            <span>Materail UI</span>
+            <span>Material UI</span>
             <span>Bootstrap</span>
             <span>Node JS</span>
             <span>Python</span>
@@ -67,7 +67,7 @@ const Skills = () => {
             <span>Express</span>
             <span>Git</span>
             <span>Mongodb</span>
-            <span>Materail UI</span>
+            <span>Material UI</span>
             <span>Bootstrap</span>
             <span>Node JS</span>
             <span>Python</span>
@@ -84,7 +84,7 @@ const Skills = () => {
             <span>Express</span>
             <span>Git</span>
             <span>Mongodb</span>
-            <span>Materail UI</span>
+            <span>Material UI</span>
             <span>Bootstrap</span>
             <span>Node JS</span>
             <span>Python</span>
@@ -99,7 +99,7 @@ const Skills = () => {
             <span>Express</span>
             <span>Git</span>
             <span>Mongodb</span>
-            <span>Materail UI</span>
+            <span>Material UI</span>
             <span>Bootstrap</span>
             <span>Node JS</span>
             <span>Python</span>
@@ -116,7 +116,7 @@ const Skills = () => {
             <span>Express</span>
             <span>Git</span>
             <span>Mongodb</span>
-            <span>Materail UI</span>
+            <span>Material UI</span>
             <span>Bootstrap</span>
             <span>Node JS</span>
           </div>
@@ -125,7 +125,7 @@ const Skills = () => {
             <span>CSS</span>
             <span>JavaScript</span>
             <span>ReactJS</span>
-            <span>Materail UI</span>
+            <span>Material UI</span>
             <span>Git</span>
             <span>Mongodb</span>
             <span>Express</span>
