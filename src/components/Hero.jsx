@@ -9,7 +9,7 @@ const Hero = () => {
 
   return (
     <div className="sm:p-40 relative bg-cover bg-center   flex justify-center gap-2 items-center">
-      <div className="flex flex-col-reverse md:flex-row justify-center md:justify-center gap-24 items-center w-full px-4 py-20 md:py-16">
+      <div className="flex flex-col-reverse md:flex-row justify-center md:justify-center gap-0 sm:gap-24 items-center w-full px-4 py-20 md:py-16">
         {/* First column */}
         <div
           data-aos="fade-up" // Apply AOS fade-in animation
@@ -62,7 +62,7 @@ const Hero = () => {
           data-aos-duration="1200"
           src="/Screenshot 2023-11-24 223154.png"
           alt="Your Image"
-          className="rounded-full h-96 w-96"
+          className="rounded-full sm:h-48 sm:w-48 md:h-72 md:w-72 h-96 w-96"
         />
       </div>
     </div>
