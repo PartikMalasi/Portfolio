@@ -14,7 +14,7 @@ const About = () => {
         data-aos="fade" // Apply AOS fade-in animation
         data-aos-delay="400" // Optional delay
         data-aos-duration="1200"
-        className="flex flex-col items-center justify-center min-h-screen mx-6 px-4 sm:px-0"
+        className="flex flex-col items-center justify-center min-h-screen mx-6 px-4 sm:px-8"
       >
         {" "}
         {/* Added px-4 sm:px-0 */}
