@@ -17,13 +17,13 @@ const Hero = () => {
           data-aos-duration="1200"
           className="w-full md:w-1/2 mt-8 md:mt-0 md:mb-0"
         >
-          <h1 className="text-4xl md:text-6xl mb-5 font-bold leading-normal">
+          <h1 className="text-4xl mb-2 md:text-6xl sm:mb-5 font-bold leading-normal">
             Hey,
           </h1>
-          <h1 className="text-4xl md:text-6xl mb-5 font-bold leading-normal">
+          <h1 className="text-4xl md:text-6xl mb-2 sm:mb-5 font-bold leading-normal">
             I'm <span className="text-red-500">Partik Malasi</span>
           </h1>
-          <p className="mb-6 text-xl sm:text-3xl">
+          <p className="mb-2 text-xl sm:text-3xl">
             <TypeAnimation
               sequence={[
                 "I'm a <MERN Developer/>",
@@ -39,7 +39,7 @@ const Hero = () => {
               repeat={Infinity}
             />
           </p>
-          <p className="mb-6 text-lg">
+          <p className="mb-6 text-md">
             A Pre-Final Student at IIIT Kota pursuing Computer Science and
             Engineering
           </p>
