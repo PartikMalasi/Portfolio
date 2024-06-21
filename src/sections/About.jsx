@@ -60,7 +60,7 @@ const About = () => {
             <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-4">
               <ul className="list-disc pl-4">
                 <li className=" text-md sm:text-lg">Computer Architecture</li>
-                <li className=" text-md sm:text-lg">Operating System</li>
+                <li className=" text-md sm:text-lg">OOPS</li>
               </ul>
             </div>
 
@@ -73,7 +73,10 @@ const About = () => {
             <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-4">
               <ul className="list-disc pl-4">
                 <li className=" text-md sm:text-lg">
-                  Data Structures and Algorithms
+                  DSA
+                </li>
+                 <li className=" text-md sm:text-lg">
+                  Operating Systems
                 </li>
               </ul>
             </div>
