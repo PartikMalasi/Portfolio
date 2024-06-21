@@ -50,34 +50,39 @@ const About = () => {
           className="flex flex-col items-center justify-center w-full max-w-6xl text-black rounded-lg mx-2 md:mx-4 lg:mx-10 mt-8"
         >
           <h1 className="text-2xl mb-4 font-bold">Core Fundamentals</h1>
-          <div className="flex flex-wrap justify-center">
-            <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-4">
+          <div className="flex flex-wrap justify-center w-3/4">
+            <div className="w-full md:w-1/2 lg:w-1/4 px-2 mb-4">
               <ul className="list-disc pl-4">
-                <li className=" text-md sm:text-lg">DBMS</li>
-                <li className=" text-md sm:text-lg">Software Engineering</li>
-              </ul>
-            </div>
-            <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-4">
-              <ul className="list-disc pl-4">
-                <li className=" text-md sm:text-lg">Computer Architecture</li>
-                <li className=" text-md sm:text-lg">OOPS</li>
-              </ul>
-            </div>
-
-            <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-4">
-              <ul className="list-disc pl-4">
-                <li className=" text-md sm:text-lg">Computer Networks</li>
-                <li className=" text-md sm:text-lg">Artificial Intelligence</li>
-              </ul>
-            </div>
-            <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-4">
-              <ul className="list-disc pl-4">
-                <li className=" text-md sm:text-lg">
-                  DSA
+                <li className="text-md sm:text-lg whitespace-nowrap">DBMS</li>
+                <li className="text-md sm:text-lg whitespace-nowrap">
+                  Software Engineering
                 </li>
-                 <li className=" text-md sm:text-lg">
-                  Operating Systems
+              </ul>
+            </div>
+            <div className="w-full md:w-1/2 lg:w-1/4 px-2 mb-4">
+              <ul className="list-disc pl-4">
+                <li className="text-md sm:text-lg whitespace-nowrap">
+                  Computer Architecture
                 </li>
+                <li className="text-md sm:text-lg whitespace-nowrap">OOPS</li>
+              </ul>
+            </div>
+            <div className="w-full md:w-1/2 lg:w-1/4 px-2 mb-4">
+              <ul className="list-disc pl-4">
+                <li className="text-md sm:text-lg whitespace-nowrap">
+                  Computer Networks
+                </li>
+                <li className="text-md sm:text-lg whitespace-nowrap">
+                  Artificial Intelligence
+                </li>
+              </ul>
+            </div>
+            <div className="w-full md:w-1/2 lg:w-1/4 px-2 mb-4">
+              <ul className="list-disc pl-4">
+                <li className="text-md sm:text-lg whitespace-nowrap">
+                  Operating System
+                </li>
+                <li className="text-md sm:text-lg whitespace-nowrap">DSA</li>
               </ul>
             </div>
           </div>
