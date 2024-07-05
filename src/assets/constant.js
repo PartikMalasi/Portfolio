@@ -1,5 +1,7 @@
 import nike from "../assets/project/nike.png";
 import todo from "../assets/project/todo.png";
+import geeky from "../assets/project/geekybytes.png";
+import portfolio from "../assets/project/portfolio.png";
 import fitness from "../assets/project/fittness.png";
 import country from "../assets/project/country.png";
 import html from "/skillsicon/html.png";
@@ -19,6 +21,26 @@ import cpp from "/skillsicon/cpp.png";
 import python from "/skillsicon/python.png";
 const project = [
   {
+    name: "GeekyBytes",
+    img: geeky,
+    content:
+      "Built a tech blogging website using the MERN stack (MongoDB, Express, React, Node.js) with features for creating, reading, updating, and deleting blog posts.",
+    icons: [react, tailwind, mongodb, node, express],
+    git: "https://github.com/PartikMalasi/GeekyBytes-Frontend",
+    link: "https://geeky-bytes-weld.vercel.app",
+  },
+
+  {
+    name: "Personal Portfolio",
+    img: portfolio,
+    content:
+      "Designed and developed a personal portfolio website using React and Tailwind CSS, showcasing responsive design and a seamless user experience.",
+    icons: [react, tailwind],
+    git: "https://github.com/PartikMalasi/Portfolio",
+    link: "https://partik-malasi-portfolio.vercel.app/",
+  },
+
+  {
     name: "Nike Clone",
     img: nike,
     content:
@@ -37,15 +59,6 @@ const project = [
     link: "https://github.com/PartikMalasi/To-do-list",
   },
   {
-    name: "Know Your Country",
-    img: country,
-    content:
-      "Displayed fetched information, such as population, flag, and capital, in a visually appealing and organized manner using REST API.",
-    icons: [react, rest, tailwind],
-    git: "https://github.com/PartikMalasi/Know-your-country",
-    link: "https://know-countries-ok.netlify.app/",
-  },
-  {
     name: "The Fitness Catalyst",
     img: fitness,
     content:
@@ -53,6 +66,15 @@ const project = [
     icons: [html, bootstrap, css, js],
     git: "https://github.com/PartikMalasi/The-fitness-Catalyst",
     link: "https://partikmalasi.github.io/The-fitness-Catalyst/",
+  },
+  {
+    name: "Know Your Country",
+    img: country,
+    content:
+      "Displayed fetched information, such as population, flag, and capital, in a organized manner using REST API.",
+    icons: [react, rest, tailwind],
+    git: "https://github.com/PartikMalasi/Know-your-country",
+    link: "https://know-countries-ok.netlify.app/",
   },
 ];
 export default project;

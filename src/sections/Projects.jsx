@@ -23,8 +23,8 @@ const Projects = () => {
         data-aos-delay="400" // Optional delay
         data-aos-duration="1200"
       >
-        {project.map((e) => (
-          <ProjectCard data={e} key={e.id} />
+        {project.map((e, i) => (
+          <ProjectCard data={e} b={i} key={e.id} />
         ))}
       </div>
     </div>
