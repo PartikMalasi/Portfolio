@@ -25,16 +25,24 @@ const ProjectCard = ({ data }) => {
                 );
               })}
             </div>
-            <div class="tech-stack flex flex-wrap gap-4 mt-4 justify-center sm:mt-3  ">
-              <div className="flex items-center">
+            <div class="tech-stack flex flex-wrap gap-2 mt-4 justify-center sm:mt-3  ">
+              <div className="hidden sm:flex items-center">
                 <a title="Github" href={data.git}>
                   <FaGithub className="h-8 w-8" />
                 </a>
               </div>
-              <div className="flex items-center">
+              <div className="hidden sm:flex items-center">
                 <a title="Live Link" href={data.link}>
                   <TbLogin2 className="h-8 w-8" />
                 </a>
+              </div>
+              <div className="flex sm:hidden items-center">
+                <Button variant="outlined" href={data.git}>
+                  Github
+                </Button>
+                <Button variant="outlined" href={data.link}>
+                  Hosted Live
+                </Button>
               </div>
             </div>
           </div>
