@@ -4,9 +4,11 @@ import Lottie from "lottie-react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import AOS styles
 import { useEffect } from "react";
+import LoadingButton from "@mui/lab/LoadingButton";
 import Snackbar from "@mui/material/Snackbar";
 import Alert from "@mui/material/Alert";
 import emailjs from "@emailjs/browser";
+import Send from "@mui/icons-material/Send";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -15,9 +17,12 @@ const Contact = () => {
   const [open, setOpen] = useState(false);
   const [toastMessage, setToastMessage] = useState("");
   const [toastSeverity, setToastSeverity] = useState("success");
+  const [loading, setLoading] = useState(false);
+
   useEffect(() => {
     AOS.init(); // Initialize AOS
   }, []);
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -28,6 +33,8 @@ const Contact = () => {
       setOpen(true);
       return;
     }
+
+    setLoading(true);
 
     // Your EmailJS service ID, template ID, and Public Key
     const serviceId = "service_op5gsr9";
@@ -54,12 +61,14 @@ const Contact = () => {
         setToastMessage("Email sent successfully!");
         setToastSeverity("success");
         setOpen(true);
+        setLoading(false);
       })
       .catch((error) => {
         console.error("Error sending email:", error);
         setToastMessage("Error sending email. Please try again.");
         setToastSeverity("error");
         setOpen(true);
+        setLoading(false);
       });
   };
 
@@ -130,12 +139,16 @@ const Contact = () => {
               ></textarea>
             </div>
             <div className="flex items-center justify-between">
-              <button
+              <LoadingButton
                 type="submit"
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                loading={loading}
+                loadingPosition="start"
+                endIcon={<Send />}
+                variant="contained"
               >
-                Submit
-              </button>
+                Send
+              </LoadingButton>
             </div>
           </form>
           <div className="md:w-1/2">
