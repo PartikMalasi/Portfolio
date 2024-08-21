@@ -36,7 +36,7 @@ const ProjectCard = ({ data }) => {
                   <TbLogin2 className="h-8 w-8" />
                 </a>
               </div>
-              <div className="flex sm:hidden items-center">
+              <div className="flex gap-4 sm:hidden items-center">
                 <Button variant="outlined" href={data.git}>
                   Github
                 </Button>
