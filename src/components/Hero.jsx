@@ -44,14 +44,20 @@ const Hero = () => {
             Engineering
           </p>
           <div className="flex space-x-4">
-            <button className="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-6 rounded-full w-40">
-              <a href="/#contact">Contact Me</a>
-            </button>
-            <button className="bg-white text-black hover:bg-gray-300 font-semibold py-2 px-6 rounded-full w-40 border border-grey-500">
-              <a href="https://drive.google.com/file/d/1cQ_zRUtZv5yI8YXHTDYTiwVIjnupVb9b/view?usp=sharing">
-                Resume
-              </a>
-            </button>
+            <a
+              href="/#contact"
+              className="bg-red-500 hover:bg-red-600 text-white text-center font-semibold py-2 px-6 rounded-full w-40"
+            >
+              Contact Me
+            </a>
+            <a
+              href=" https://drive.google.com/file/d/1Pcx7y2nQyCs4O1HasKygwg9N9w0XnRGF/view?usp=sharing"
+              //link to new tab
+              target="_blank"
+              className="bg-white text-black hover:bg-gray-300 font-semibold py-2 px-6 rounded-full w-40 border border-grey-500 text-center"
+            >
+              Resume
+            </a>
           </div>
         </div>
         {/* Second column */}

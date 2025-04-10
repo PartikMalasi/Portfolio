@@ -33,7 +33,7 @@ const Time = () => {
               <h4 className="vertical-timeline-element-subtitle">
                 Btech CSE (Graduation)
               </h4>
-              <p>Current CGPA:- 9.32</p>
+              <p>Current CGPA:- 9.25</p>
             </div>
           </div>
         </VerticalTimelineElement>

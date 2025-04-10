@@ -9,6 +9,7 @@ import Contact from "./sections/Contact";
 import Testimonal from "./sections/About";
 import About from "./sections/About";
 import Loader from "./components/Loader";
+import Experience from "./sections/Experience";
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -28,6 +29,7 @@ function App() {
     <>
       <Home />
       <About />
+      <Experience />
       <Skills />
       <Projects />
       <Education />

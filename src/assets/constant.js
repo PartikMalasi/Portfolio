@@ -19,6 +19,7 @@ import node from "/skillsicon/node.png";
 import c from "/skillsicon/c.png";
 import cpp from "/skillsicon/cpp.png";
 import python from "/skillsicon/python.png";
+import hungry from "../assets/project/hungry.png";
 const project = [
   {
     name: "GeekyBytes",
@@ -29,7 +30,15 @@ const project = [
     git: "https://github.com/PartikMalasi/GeekyBytes-Frontend",
     link: "https://geeky-bytes-weld.vercel.app",
   },
-
+  {
+    name: "Hungry",
+    img: hungry,
+    content:
+      "Built a donation platform using the MERN stack (MongoDB, Express, React, Node.js) with features for secure transactions, campaign creation, donor tracking, and a user-friendly interface.",
+    icons: [react, tailwind, mongodb, node, express],
+    git: "https://github.com/PartikMalasi/Hungry",
+    link: "https://github.com/PartikMalasi/Hungry",
+  },
   {
     name: "Personal Portfolio",
     img: portfolio,
@@ -62,7 +71,7 @@ const project = [
     name: "The Fitness Catalyst",
     img: fitness,
     content:
-      "For all fitness enthusiast, I created a responsive, interactive fitness website , featuring a BMI calculator and dark theme. It includes special plans for all individuals and featuring personalized diet charts.",
+      "For all fitness enthusiast, I created a responsive, interactive fitness website , featuring a BMI calculator and dark theme. It includes special plans for all  .",
     icons: [html, bootstrap, css, js],
     git: "https://github.com/PartikMalasi/The-fitness-Catalyst",
     link: "https://partikmalasi.github.io/The-fitness-Catalyst/",

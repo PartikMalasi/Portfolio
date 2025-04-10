@@ -14,6 +14,7 @@ import MenuItem from "@mui/material/MenuItem";
 const pages = [
   { name: "Home", href: "#" },
   { name: "About", href: "#about" },
+  { name: "Experience", href: "#experience" }, // Added Experience Section
   { name: "Skills", href: "#skills" },
   { name: "Projects", href: "#projects" },
   { name: "Education", href: "#education" },
@@ -21,7 +22,7 @@ const pages = [
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [activePage, setActivePage] = React.useState(pages[0].name); // Default to "Home"
+  const [activePage, setActivePage] = React.useState(pages[0].name);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -58,9 +59,7 @@ function Navbar() {
             src="/p.png"
             alt="Logo"
             className="h-12 w-auto mr-4 rounded-full"
-            // Ensure no margin on mobile
           />
-
           <Typography
             variant="h6"
             noWrap
@@ -129,20 +128,12 @@ function Navbar() {
             <Menu
               id="menu-appbar"
               anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: "bottom",
-                horizontal: "right",
-              }}
+              anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
               keepMounted
-              transformOrigin={{
-                vertical: "top",
-                horizontal: "right",
-              }}
+              transformOrigin={{ vertical: "top", horizontal: "right" }}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
-              sx={{
-                display: { xs: "block", md: "none" },
-              }}
+              sx={{ display: { xs: "block", md: "none" } }}
             >
               {pages.map((page) => (
                 <MenuItem
