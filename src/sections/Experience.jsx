@@ -26,7 +26,7 @@ const Experience = () => {
           data-aos="fade-up"
           data-aos-delay="400"
           data-aos-duration="1200"
-          className="bg-gray-800 rounded-lg shadow-lg p-6 sm:p-8 transition-transform transform hover:scale-105"
+          className="bg-gray-800 rounded-lg shadow-lg p-6 sm:p-8 transition-transform duration-800 ease-in-out transform hover:scale-105"
         >
           <div className="flex flex-col gap-2 items-center text-center">
             <img src={cyble} alt="Cyble Logo" className="w-16 h-16 mb-2" />
@@ -73,7 +73,7 @@ const Experience = () => {
           data-aos="fade-up"
           data-aos-delay="400"
           data-aos-duration="1200"
-          className="bg-gray-800 rounded-lg shadow-lg p-6 sm:p-8 transition-transform transform hover:scale-105"
+          className="bg-gray-800 rounded-lg shadow-lg p-6 sm:p-8 transition-transform duration-800 ease-in-out transform hover:scale-105"
         >
           <div className="flex flex-col gap-1 items-center text-center">
             <img
